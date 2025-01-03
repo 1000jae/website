@@ -1,0 +1,107 @@
+* {
+    /* not affect width and height of actual elements contained */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* variables */
+:root {
+    --blue_col: #0A5EB0;
+    --bkg_col: #EFF3EA;
+    --font_col: #2A3335;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: var(--bkg_col);
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: var(--font_col);
+}
+
+/* unordered lists */
+ul {
+    list-style: none;
+
+}
+
+/* images */
+img {
+    max-width: 100%;
+}
+
+/* logo */
+.logo {
+    color: var(--font_col);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* .logo a{
+    transition: 
+} */
+
+/* .logo .logo-container ul {
+    display: flex;
+}
+
+
+.logo ul li a {
+    padding: 0px 5px;
+    display: block;
+    font-weight: 800;
+    transition: 0.3s;
+} */
+
+/* .logo ul li a:hover{
+    color: var(--font_col);
+} */
+
+/* navigation bar */
+.navbar {
+    background: var(--bkg_col);
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* format of the main menu */
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.main-menu ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.main-menu ul li a:hover {
+    color: var(--blue_col);
+}
+
+
+/* container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* .logo-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+} */
